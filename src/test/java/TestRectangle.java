@@ -11,7 +11,7 @@ public class TestRectangle {
    @Test
    public void testProps()
    {
-     Rectangle r = Rectangle(10,20);
+     Rectangle r = new Rectangle(10, 20);
 
      int w = r.getWidth();
      assertEquals(w, 10);
