@@ -16,7 +16,7 @@ public class TestRectangle {
      int w = r.getWidth();
      assertEquals(w, 10);
      
-     int h = r.getHeight()
+     int h = r.getHeight();
      assertEquals(h, 20);
    }
 }
